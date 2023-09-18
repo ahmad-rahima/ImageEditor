@@ -1,0 +1,55 @@
+.root {
+    -fx-background-color: #333;
+    -fx-text-fill: white;
+}
+
+AnchorPane {
+    -fx-text-fill: white;
+}
+
+* {
+    -fx-text-fill: inherit;
+}
+
+VBox {
+    -fx-display: flex;
+    -fx-flex-direction: column;
+    -fx-align-items: flex-start;
+}
+
+Button {
+    -fx-display: flex;
+    -fx-flex-direction: row;
+    -fx-align-items: center;
+    -fx-padding: .2em 1em;
+    -fx-margin: 0;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-width: 100%;
+    -fx-background-color: #444;
+}
+
+
+Button:hover {
+    -fx-background-color: #999;
+}
+
+.secondary-color {
+    -fx-background-color: #1e90ff;
+    -fx-text-fill: white;
+}
+
+.list-view .list-cell:even {
+    -fx-background-color: #333;
+    -fx-text-fill: white;
+}
+
+.list-view .list-cell:odd {
+    -fx-background-color: #555;
+    -fx-text-fill: white;
+}
+
+.list-view .list-cell:hover {
+    -fx-background-color: #aaa;
+    -fx-text-fill: black;
+}

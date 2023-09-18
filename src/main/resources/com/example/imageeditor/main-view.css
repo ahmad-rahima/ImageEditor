@@ -1,0 +1,71 @@
+.root {
+    -fx-background-color: #333;
+    -fx-text-fill: white;
+}
+
+AnchorPane {
+    -fx-text-fill: white;
+}
+
+* {
+    -fx-text-fill: inherit;
+}
+
+VBox {
+    -fx-display: flex;
+    -fx-flex-direction: column;
+    -fx-align-items: flex-start;
+}
+
+ChoiceBox{
+    -fx-text-fill: black;
+}
+
+DatePicker {
+    -fx-text-fill: black;
+}
+
+TextField {
+    -fx-text-fill: black;
+}
+
+Button {
+    -fx-display: flex;
+    -fx-flex-direction: row;
+    -fx-align-items: center;
+    -fx-padding: .5em 1em;
+    -fx-margin: .5em;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+
+    -fx-background-color: #1e90ff;
+}
+
+
+Button:hover {
+    -fx-background-color: #333;
+}
+
+#imageView {
+    -fx-margin: 10em;
+}
+
+.secondary-color {
+    -fx-background-color: #1e90ff;
+    -fx-text-fill: white;
+}
+
+#infoBox > VBox > Label {
+    -fx-text-fill: yellow;
+    -fx-font-size: 1.3em;
+    -fx-padding: 1em;
+}
+
+#infoBox {
+    -fx-padding: 2em;
+}
+
+#infoBox VBox HBox Label {
+    -fx-padding: 1em;
+    -fx-text-fill: white;
+}
